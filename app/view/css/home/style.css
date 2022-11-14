@@ -1,0 +1,91 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@media (max-width:800px) {
+    *{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        
+
+    }
+    h1{font-size: 30px; padding: 10px;font-style: impact;}
+    body{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cronometro{width: 100%;margin-bottom: 10%;}
+    
+    .hora{
+        font-size: 85px;
+        font-family: impact;
+    }
+    .data{
+        font-size: 30pt;
+    }
+    .options{
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    .marcacoes{
+        width: 48%;
+        background-color: rgb(211, 211, 211);
+        margin: 2px;
+        color: rgb(131, 131, 131);
+    }
+
+    
+}
+
+@media (min-width:800px) {
+    *{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        
+
+    }
+    h1{font-size: 30px; padding: 10px;font-style: impact;}
+    body{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cronometro{width: 100%;margin-bottom: 5%;}
+    
+    .hora{
+        font-size: 85px;
+        font-family: Impact;
+    }
+    .data{
+        font-size: 30pt;
+    }
+    .options{
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    .marcacoes{
+        width: 48%;
+        background-color: rgb(175, 175, 175);
+        margin: 2px;
+        color: rgb(75, 75, 75);
+    }
+    
+}
